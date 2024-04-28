@@ -12,4 +12,9 @@ public class Controller {
   String hello() {
     return "Greetings from Spring Boot!";
   }
+
+  @GetMapping("/message")
+  String message() {
+    return "Опа ухилянт! Вам повісткаю З цього моменту вона вважається врученою, якщо ви не зявитесь в найближчий тцк то вам заборонять срать!";
+  }
 }
